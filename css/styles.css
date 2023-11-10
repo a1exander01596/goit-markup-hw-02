@@ -124,7 +124,7 @@ body {
 }
 
 .section-bgd {
-  background-color: #f4f4fd;
+  background-color: #ffffff;
 }
 
 .footer-bgd {
@@ -132,5 +132,11 @@ body {
 }
 
 .footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.logo-part-footer {
   color: #f4f4fd;
 }
