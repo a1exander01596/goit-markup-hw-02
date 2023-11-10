@@ -12,14 +12,8 @@ button {
 
 body {
   font-family: "Roboto", sans-serif;
-}
-
-p {
   color: #434455;
-  text-align: center;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+  background-color: #ffffff;
 }
 
 /* Header */
@@ -27,20 +21,20 @@ p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1, 16;
+  line-height: 1, 17;
   letter-spacing: 0, 03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .logo-part {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1, 16;
+  line-height: 1, 17;
   letter-spacing: 0, 03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -56,10 +50,13 @@ p {
   color: #404bbf;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .address-link {
   color: #434455;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -76,16 +73,18 @@ p {
 }
 
 .order-button {
-  border-radius: 4px;
-  background: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .order-button:hover,
 .order-button:focus {
-  border-radius: 4px;
-  background: #404bbf;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: #404bbf;
 }
 
 .main-title {
@@ -114,4 +113,24 @@ p {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.paragraph {
+  color: #434455;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.section-bgd {
+  background-color: #f4f4fd;
+}
+
+.footer-bgd {
+  background-color: #2e2f42;
+}
+
+.footer-text {
+  color: #f4f4fd;
 }
