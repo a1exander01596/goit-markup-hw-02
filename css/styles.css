@@ -1,5 +1,6 @@
 .list {
   list-style-type: none;
+  background-color: #ffffff;
 }
 
 .link {
@@ -124,7 +125,7 @@ body {
 }
 
 .section-bgd {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .footer-bgd {
@@ -140,9 +141,11 @@ body {
 }
 
 .logo-part-footer {
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
-}
-
-.list-item {
-  background-color: #ffffff;
 }
